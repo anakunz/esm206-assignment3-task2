@@ -200,7 +200,9 @@ In the code chunk below, create a vector (using `c()`, as above) stored as `some
 ```{r}
 # Your code here: 
 some_dates <- c(02221996, 02061982,11121960)
+
 some_dates_converted <- myd(some_dates)
+
 class(some_dates_converted)
 ```
 
